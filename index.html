@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!--本代码由 路遥小窝创建二改
+  地址：http://house.hylove.top/-->
+<html lang="zh-cn">
+
+
+<script charset="UTF-8" id="LA_COLLECT" src="static/js/js-sdk-pro.min.js"></script>
+<script>LA.init({id:"3IDFMOvTZ1bWcbBH",ck:"3IDFMOvTZ1bWcbBH",autoTrack:true})</script>
+<head>
+	<meta name="generator" content="Hugo 0.58.2">
+  <meta charset="utf-8">
+      <link href="static/css/monokai.min.css" rel="stylesheet">
+    <script src="static/js/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  
+  <title>路遥小窝～不念过往，逐梦向前~</title>
+
+  
+  <meta name="baidu-site-verification" content="SQ5Gg5sRhQ">
+<script async src="static/js/280b1ca207494199bb67cb5b680706bb.js"></script> 
+<script async src=""></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-176423370-1');
+</script>
+
+
+
+<script>
+    function CreatePostNavigator(){
+        
+        var navigatorTitleDiv = '<div id="navigatorTitleDiv">隐藏目录</div>';
+    
+        
+        var navigatorDivContent = '<div id="navigatorDiv">';
+        
+        if($("#cnblogs_post_body :header").length == 0){
+            return;
+        }
+    
+        $.each($("#cnblogs_post_body :header"), function(i, val){      
+              
+              var headerTagName = $(val)[0].tagName.toLowerCase();
+              var navigatorItem = '<dt class="dt_'+headerTagName+'"><a href="#_nav_' + i + '">' + $(val).text() + '</a></dt>';
+              
+              navigatorDivContent += navigatorItem;
+              
+              
+              var headerLabel = '<a name="_nav_' + i + '" style="padding:0px"></a>';
+              $(val).prepend(headerLabel);
+          }); 
+          
+         navigatorDivContent += '</div>';
+        
+         $('#cnblogs_post_body').append(navigatorDivContent);
+         $('#cnblogs_post_body').append(navigatorTitleDiv);
+         
+         
+         $("#navigatorTitleDiv").click(function(){
+                $("#navigatorDiv").toggle(200, function(){
+                    var title = $("#navigatorTitleDiv").text() == "隐藏目录"?"文章目录":"隐藏目录";
+                    $("#navigatorTitleDiv").text(title);
+                });
+         });
+         
+         
+         var headerList = ["h1", "h2", "h3", "h4"];
+         var headerListLen = headerList.length;
+         
+         for(var i = 0; i < headerListLen; i++){
+                if(i < (headerListLen-1) && $(".dt_"+headerList[i]).length > 0){
+                    for(var j=headerListLen-1; j > i; j--)
+                    $(".dt_"+headerList[j]).css({"margin-left": (i+1)*10+"px"});
+                 }
+         }
+         
+    }
+    
+    CreatePostNavigator();
+</script>
+
+<style>
+#navigatorTitleDiv
+{
+    padding: 3px;
+    position: fixed;
+    top:244px; 
+    right:304px;
+    font-weight:bold;
+    cursor:pointer;
+    background-color: antiquewhite;
+}
+
+#navigatorDiv 
+{
+    border-style:double;
+    padding: 10px;
+    padding-top:30px;
+    position: fixed;
+    top:240px; 
+    right:300px;
+    background-color: antiquewhite;
+}
+</style>
+
+  
+  <meta property="og:title" content="路遥小窝<br>(⑅˃◡˂⑅)">
+  
+  <meta property="og:type" content="website">
+  <meta name="keywords" content="个人网站">
+  <script>
+
+      "color: #fff; padding: 5px 0; background: #29c75f; margin: 1em 0;",
+      "display: block;margin-left: 0.5em; margin: 1em 0;",
+      "color:#E24432; font-size: 16px; margin: 1em 0;",
+      "color:#666666; font-size: 16px; margin: 1em 0;",
+      "color:#0E70ED; font-size: 16px; margin: 1em 0;",
+      "color:#666666; font-size: 16px; margin: 1em 0;",
+      "color:#009E5E; font-size: 16px; margin: 1em 0;",
+      "color:#666666; font-size: 16px; margin: 1em 0;";
+  </script>
+  
+  
+  
+
+  
+  <meta property="description" content="路遥小窝">
+  
+
+  
+  <meta property="keywords" content="usage, docs">
+  
+  
+  <link rel="icon" type="image/x-icon" href="https://img01.anheyu.com/useruploads/156/2023/07/23/64bcc07b319fa.png">
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="static/css/fonts.css">
+  <script async src="static/js/load-typekit.js"></script>
+<link rel="stylesheet" id="github-light" href="static/css/github-light.css">
+<link rel="stylesheet" id="github-dark" href="static/css/github-dark.css">
+<link rel="stylesheet" id="github-dark-orange" href="static/css/github-dark-orange.css">
+<link rel="stylesheet" id="dark-blue" href="static/css/dark-blue.css">
+<link rel="stylesheet" id="icy-dark" href="static/css/icy-dark.css">
+<link rel="stylesheet" id="photon-dark" href="static/css/photon-dark.css">
+
+<link async href="static/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+
+<body class="home">
+
+    
+
+<div class="index wrapper">
+    <main class="index">
+        <aside class="index">
+            <div id="logo">
+                <img src="static/picture/ly.png" alt="这是我的头像">
+
+                <div id="name">路遥小窝<br>(⑅˃◡˂⑅)</div>
+            </div>
+            <ul id="info">
+                <li>
+                    <i class="fa-fw fa fa-user"></i>男
+                </li>
+                <li>
+                    <i class="fa-fw fa fa-qq"></i>@QQ：1691617546
+                </li>
+                <li>
+                    <i class="fa-fw fa fa-wechat"></i>@vx：hystart123
+                </li>
+                
+                <li>
+                    <i class="fa-fw fa fa-envelope"></i>@mail：1691617546@qq.com
+                </li>
+
+                <li>
+                    <i class="fa-fw fa fa-map-marker"></i>江西·宜春
+                </li>
+                <li>
+                    <i class="fa-fw fa fa-home"></i>袁州区
+                </li>
+            </ul>
+        </aside>
+        <article class="index">
+
+<div class="find ch">
+        <div class="container links">
+            <h2 class="chtitle">欢迎来到 <span>路遥小窝～</span></h2>
+            <div class="clear col-3">
+            
+
+<h3 id="Hello-我是路遥">Hello，我是路遥。</h3>
+
+<p><ruby>“路遥”<rt>Used since 2024, until now</rt><br>
+</ruby>世界那么大，还是遇见你！<br>
+你正使用 <ruby class="link"><button id="modeTag" onclick="mode()"></button><rt>mode</rt></ruby> 模式阅读。<br><br>
+
+<span style="font-size:14px;"><u>“</u></span><span style="color:#00D5FF;font-size:14px;"><u>岁月不居</u></span><u>，</u><span style="color:#60D978;font-size:14px;"><u>时节如流</u></span><span style="font-size:14px;"><u><br></u></span><span style="color:#B8D100;font-size:14px;"><u>不惧未来之变局</u></span><span style="font-size:14px;"><u>，</u></span><span style="color:#ffccff;font-size:14px;"><u>不负此生之芳华</u></span><span style="font-size:14px;"><u>”</u></span>
+
+</p>
+
+</aside>
+        <article class="index">
+<div class="find ch">
+        <div class="container links">
+            <h2 class="chtitle">旗下站点<a target="_blank" class="btn btn-danger" href="http://qq.hylove.top/"><i class="fa fa-users"></i>（点击访问新站点）</a> <span></span></h2>
+            <div class="clear col-3">
+</aside>
+        <article class="index">
+<a href="http://qq.hylove.top/"> 
+
+<img src="static/picture/xb.png" width="500"    style="max-width:100%" />
+
+</a>
+
+<!--当你看到这段文字的时候，代表有小憨憨想扒我代码了，本站源码无加密，扒走希望能赞助支持一下，地址:http://qq.hylove.top/-->
+        </article>
+    <p>欢迎访问本站</p>
+    <div id="chakhsu">
+    </div>
+    <script>
+       var chakhsu = function(r) {
+           function t() {
+               return b[Math.floor(Math.random() * b.length)]
+           }
+ 
+           function e() {
+               return String.fromCharCode(94 * Math.random() + 33)
+           }
+ 
+           function n(r) {
+               for (var n = document.createDocumentFragment(), i = 0; r > i; i++) {
+                   var l = document.createElement("span");
+                   l.textContent = e(),
+                       l.style.color = t(),
+                       n.appendChild(l)
+               }
+               return n
+           }
+ 
+           function i() {
+               var t = o[c.skillI];
+               c.step ? c.step-- : (c.step = g, c.prefixP < l.length ? (c.prefixP >= 0 && (c.text += l[c.prefixP]), c.prefixP++) : "forward" === c.direction ? c.skillP < t.length ? (c.text += t[c.skillP], c.skillP++) : c.delay ? c.delay-- : (c.direction = "backward", c.delay = a) : c.skillP > 0 ? (c.text = c.text.slice(0, -1), c.skillP--) : (c.skillI = (c.skillI + 1) % o.length, c.direction = "forward")),
+                   r.textContent = c.text,
+                   r.appendChild(n(c.prefixP < l.length ? Math.min(s, s + c.prefixP) : Math.min(s, t.length - c.skillP))),
+                   setTimeout(i, d)
+           }
+           var l = "一路风尘扑扑，且听且看且从容",
+               o = ["“AIGC爱好者、IT技术热爱者、站长、爱好折腾黑科技、安卓逆向破解玩家（虽然只会改一点点dex文件）哈哈”.", ].map(function(r) {
+                   return r + ""
+               }),
+               a = 2,
+               g = 1,
+               s = 5,
+               d = 75,
+               b = ["rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200)"],
+               c = {
+                   text: "",
+                   prefixP: -s,
+                   skillI: 0,
+                   skillP: 0,
+                   direction: "forward",
+                   delay: a,
+                   step: g
+               };
+           i()
+       };
+       chakhsu(document.getElementById('chakhsu'));
+    </script>
+        <footer class="index">
+            
+            <script async src="static/js/give-up-ie.js"></script>
+            
+            <script async src="static/js/indentation-el.js"></script>
+            
+            <script async src="static/js/mode.js"></script>
+            
+            <script async src="static/js/beaudar.js"></script>
+            
+            <script async src="static/js/math-code.js"></script>
+            
+            <script async src="static/js/center-img.js"></script>
+
+            <script async src="static/js/click.js"></script>
+            
+            <script async src="static/js/right-quote.js"></script>
+            
+            <script async src="static/js/fix-footnote.js"></script>
+            
+            <script async src="static/js/external-link.js"></script>
+            
+            <script async src="static/js/alt-title.js"></script>
+            
+            <script async src="static/js/header-link.js"></script>
+            
+            <script async src="static/js/checkbox-list.js"></script>
+             
+            </script>
+<div style="text-align:center;">
+<footer id="footer">
+<p class="copyright">Copyright © 2024  路遥小窝</a>·版权所有</p>
+                                                <p class="copyright"><a href="https://beian.miit.gov.cn">备案号：赣ICP备20240520213号<a href="/"></a></p>
+                </a>
+                <br>
+                
+                <span id="sitetime" style="font-size: 10px;font-weight: 700; "></span>
+                <script language="javascript">
+                    function siteTime() {
+                        window.setTimeout("siteTime()", 1000);
+                        var seconds = 1000;
+                        var minutes = seconds * 60;
+                        var hours = minutes * 60;
+                        var days = hours * 24;
+                        var years = days * 365;
+                        var today = new Date();
+                        var todayYear = today.getFullYear();
+                        var todayMonth = today.getMonth() + 1;
+                        var todayDate = today.getDate();
+                        var todayHour = today.getHours();
+                        var todayMinute = today.getMinutes();
+                        var todaySecond = today.getSeconds();
+                        
+
+                        var t1 = Date.UTC(2024, 05, 20, 00, 00, 00); 
+                        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                        var diff = t2 - t1;
+                        var diffYears = Math.floor(diff / years);
+                        var diffDays = Math.floor((diff / days) - diffYears * 365);
+                        var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                        var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
+                        var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
+                        document.getElementById("sitetime").innerHTML = " 🚀已艰难运行" +   diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }  
+                    siteTime();
+                </script>
+                <br>
+                <div style="font-size: 10px; font-weight: 700;">
+                    <script async src="static/js/busuanzi.pure.mini.js">
+                    </script>
+                    🚩今日总访问量<span id="busuanzi_value_site_pv"></span>次 🏁今日访客数
+                    <span id="busuanzi_value_site_uv"></span>人次 🏳‍🌈今日总阅读量
+                    <span id="busuanzi_value_page_pv"></span>次
+                </div>
+                
+                <div style="font-size: 6px; font-weight: 700;">
+
+                </div>
+
+
+                
+            </div>
+            
+        </footer>
+    </main>
+</div>
+<!-- 樱花飘落效果 --> 
+ <script type="text/javascript" src="static/js/5.js"></script>
+
+<script type="text/javascript" id="myhk" src="static/js/eccd9f9168f84b8d83b144e51c4a3965.js" key="1686324144151" m="1"></script>
+<div id="music" key="664b7a842b65b"></div><script id="xplayer" src="https://y.cenguigui.cn/Static/player14/js/player.js" ></script>
+</body>
+
+</html>
